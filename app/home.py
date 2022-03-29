@@ -3,10 +3,10 @@ name = 'Lisa'
 city_names = ['Paris', 'London', 'Rome', 'Tahiti']
 
 
-myobj_app = Flask(__name__)
+myobj = Flask(__name__)
 
 
-@myobj_app.route('/')
+@myobj.route('/')
 def home():
 
     return render_template_string("""
