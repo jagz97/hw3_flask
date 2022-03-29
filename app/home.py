@@ -27,6 +27,3 @@ def home():
                 
 
     </html >""", city_name=city_names, name=name)
-
-
-myobj_app.run()
