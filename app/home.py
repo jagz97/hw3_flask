@@ -1,6 +1,3 @@
-Jagzsss
-
-
 from flask import Flask, render_template_string
 name = 'Lisa'
 city_names = ['Paris', 'London', 'Rome', 'Tahiti']
